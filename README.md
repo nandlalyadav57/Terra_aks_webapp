@@ -77,13 +77,12 @@ Now Let's deploy a simple web application which is using redis
 **kubectl apply -f azure-vote.yaml -n myvote **
 
 
-
-or
-
+or use this:
 
 
-**kubectl apply -f azure https://raw.githubusercontent.com/nandlalyadav57/terra_aks_webapp/main/azure-vote.yaml?token=AIAXGZX4NW7UPQUMDVTWWNLASTZEE -n myvote 
-**
+
+**kubectl apply -f azure https://raw.githubusercontent.com/nandlalyadav57/terra_aks_webapp/main/azure-vote.yaml?token=AIAXGZX4NW7UPQUMDVTWWNLASTZEE -n myvote **
+
 
 
 **kubectl get all -n myvote**
