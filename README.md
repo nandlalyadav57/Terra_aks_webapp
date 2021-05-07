@@ -1,18 +1,24 @@
 # Terra_aks_webapp
 
+
 **az login**
 
 
 **git clone https://github.com/nandlalyadav57/terra_aks_webapp.git**
 
 
-we need to run terraform init. This would download any plugins that the Azure provider depends on.
+
+
+Need to run terraform init. This would download any plugins that the Azure provider depends on.
+
+
 $ **terraform init**
 
 
 
-We created a variable for it earlier. if you have an ssh key pair you can skip this step
+Created a variable for it earlier. if you have an ssh key pair you can skip this step
 $ ssh-keygen -t rsa -b 4096
+
 
 Export the key into an environment variable.
 $ **export TF_VAR_ssh_key=$( cat ~/.ssh/id_rsa.pub)**
