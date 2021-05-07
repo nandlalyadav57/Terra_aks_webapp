@@ -68,7 +68,7 @@ Go to your newly build AKS Cluster  (Check details by clicking on connect from A
 
 
 
-**kubectl get pods -o wide**
+**kubectl get nodes -o wide**
 
 
 Now Let's deploy a simple web application which is using redis
@@ -83,7 +83,7 @@ or use this:
 
 
 
-**kubectl apply -f azure https://raw.githubusercontent.com/nandlalyadav57/terra_aks_webapp/main/azure-vote.yaml?token=AIAXGZX4NW7UPQUMDVTWWNLASTZEE -n myvote **
+**kubectl apply -f https://raw.githubusercontent.com/nandlalyadav57/terra_aks_webapp/main/azure-vote.yaml?token=AIAXGZX4NW7UPQUMDVTWWNLASTZEE -n myvote **
 
 
 
