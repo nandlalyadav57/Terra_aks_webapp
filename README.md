@@ -1,12 +1,14 @@
 # Terra_aks_webapp
 
-Project setup
+**Project setup**
+
 
 Prerequisites:
-•An Azure account
-•Git 
-•Azure CLI
-•Terraform CLI
+
+1.An Azure account
+2.Git 
+3.Azure CLI
+4.Terraform CLI
 
 
 
