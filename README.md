@@ -1,5 +1,16 @@
 # Terra_aks_webapp
 
+Project setup
+
+Prerequisites:
+•An Azure account
+•Git 
+•Azure CLI
+•Terraform CLI
+
+
+
+
 
 **az login**
 
@@ -63,7 +74,16 @@ Now Let's deploy a simple web application which is using redis
 **kubectl create namespace myvote**
 
 
-**kubectl apply -f azure-vote.yaml -n myvote (https://raw.githubusercontent.com/nandlalyadav57/terra_aks_webapp/main/azure-vote.yaml?token=AIAXGZX4NW7UPQUMDVTWWNLASTZEE)**
+**kubectl apply -f azure-vote.yaml -n myvote **
+
+
+
+or
+
+
+
+**kubectl apply -f azure https://raw.githubusercontent.com/nandlalyadav57/terra_aks_webapp/main/azure-vote.yaml?token=AIAXGZX4NW7UPQUMDVTWWNLASTZEE -n myvote 
+**
 
 
 **kubectl get all -n myvote**
