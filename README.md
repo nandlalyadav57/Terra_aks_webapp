@@ -98,18 +98,18 @@ use the kubectl scale command. The following example increases the number of fro
 
 
 
-**kubectl scale --replicas=5 deployment/azure-vote-front**
+**kubectl scale --replicas=5 deployment/azure-vote-front -n myvote**
 
 
 
-
+kubectl get all -n myvote
 
 kubectl autoscale command to autoscale the number of pods in the azure-vote-front deployment. 
 If average CPU utilization across all pods exceeds 50% of their requested usage
 
 
 
-**kubectl autoscale deployment azure-vote-front --cpu-percent=50 --min=3 --max=10**
+**kubectl autoscale deployment azure-vote-front --cpu-percent=50 --min=3 --max=10  -n myvote ** 
 
 
 
