@@ -63,7 +63,7 @@ Now Let's deploy a simple web application which is using redis
 **kubectl create namespace myvote**
 
 
-**kubectl apply -f azure-vote.yaml  (https://raw.githubusercontent.com/nandlalyadav57/terra_aks_webapp/main/azure-vote.yaml?token=AIAXGZX4NW7UPQUMDVTWWNLASTZEE)**
+**kubectl apply -f azure-vote.yaml -n myvote (https://raw.githubusercontent.com/nandlalyadav57/terra_aks_webapp/main/azure-vote.yaml?token=AIAXGZX4NW7UPQUMDVTWWNLASTZEE)**
 
 
 **kubectl get all -n myvote**
