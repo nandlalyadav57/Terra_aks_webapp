@@ -8,7 +8,7 @@ resource "azurerm_kubernetes_cluster" "aks-cluster" {
     name = "My-Cluster-Vote"
     location = azurerm_resource_group.aks-resource.location
     resource_group_name = azurerm_resource_group.aks-resource.name
-    dns_prefix = "terraform-cluster"
+    dns_prefix = "My-Cluster-Vote"
     kubernetes_version = var.kubernetes_version
 
     default_node_pool {
