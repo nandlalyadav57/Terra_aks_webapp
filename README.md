@@ -2,6 +2,7 @@
 
 **Project setup**
 
+Refer : https://ny55.blogspot.com/2021/05/deploy-kubernetes-cluster-using.html
 
 Prerequisites:
 
@@ -112,7 +113,7 @@ If average CPU utilization across all pods exceeds 50% of their requested usage
 **kubectl autoscale deployment azure-vote-front --cpu-percent=50 --min=3 --max=10  -n myvote ** 
 
 
-
+https://ny55.blogspot.com/2021/05/deploy-kubernetes-cluster-using.html
 
 
 
